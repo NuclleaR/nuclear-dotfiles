@@ -122,6 +122,8 @@ export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 export PATH=${PATH}:$JAVA_HOME/bin
 export PATH=${PATH}:/home/nuclear/Applications/node-js/bin
 
+source ~/.git-completion.bash
+
 alias iobuild='ionic build android'
 alias iorun='ionic run android'
 alias adev='adb devices'

@@ -1,0 +1,13 @@
+[core]
+	autocrlf = input
+	editor = nano
+[user]
+	name = NuclleaR
+	email = nuclear.890@gmail.com
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	unstage = reset HEAD --
+	last = log -1 HEAD
